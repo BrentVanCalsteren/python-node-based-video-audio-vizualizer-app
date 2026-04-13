@@ -1,0 +1,42 @@
+import cupy as cp
+
+class VALUES:
+    FPS = 30
+    CURRENT_FRAME = 0
+
+
+    RENDER_WIDTH = 640
+    RENDER_HEIGHT = 480
+    PREVIEW_WIDTH = 640
+    PREVIEW_HEIGHT = 480
+
+    NODE_WINDOW = None
+    NODE_WINDOW_SIZE = (800,600)
+    NODE_CANVAS = None
+    NODE_CANVAS_SIZE = (2000,2000)
+    DRAG_NODE = None
+    ACTIVE_NODE = None
+
+    ACTIVE_RENDER_NODE = None
+    RENDER_WINDOW = None
+    RENDER_WINDOW_SIZE = (800, 600)
+    RENDER_CANVAS = None
+    RENDER_CANVAS_SIZE = (400, 300)
+    DISPLAYED_IMAGE = None
+    LAST_RENDERED_IMAGE = None
+
+
+    ACTIVE_AUDIO_NODE = None
+    GPU_BLACK_IMAGE = cp.zeros((100, 100, 3), dtype=cp.uint8)
+
+v = VALUES()
+
+
+
+
+
+
+
+
+
+
